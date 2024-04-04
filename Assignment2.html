@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<style>
+    #reebok {
+        border: 5px solid black;
+
+    }
+
+    #top-portion {
+        display: flex;
+        border: 2px solid black;
+        height: 70px;
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: space-between;
+        background-color: black;
+        color: white;
+    }
+
+    #child2 {
+        display: flex;
+        margin-top: 20px;
+        gap: 20px;
+        font-size: 15px;
+
+    }
+
+    #navbar {
+        display: flex;
+        height: 60px;
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 20px;
+    }
+
+    a {
+
+        padding: 8px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .logo {
+        width: 200px;
+        height: 30px;
+    }
+
+    .delivery {
+        background-color: maroon;
+        border: none;
+        color: white;
+        font-size: 15px;
+        padding: 10px 15px;
+        cursor: pointer;
+        float: left;
+
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: auto;
+    }
+
+    .items1 {
+        text-align: center;
+        font-size: 20px;
+        margin-left: 10%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        place-items: center;
+
+
+    }
+
+    .favorite>P {
+        font-size: 15px;
+        text-align: left;
+        background-color: aqua;
+    }
+
+    .shoes {
+        width: 100%;
+        height: 60%;
+    }
+
+    .favorite {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <div id="reebok">
+        <div id="top-portion">
+            <div id="child1">
+                <select name="Brand" id="">
+                    <Option>More Brands</Option>
+                </select>
+            </div>
+            <div id="child2">
+                <div class="flex">
+
+                    <span class="material-symbols-outlined">
+                        location_on
+                    </span>
+                    <p> | STORIES</p>
+                </div>
+
+
+                <div class="flex">
+                    <span class="material-symbols-outlined">
+                        contacts
+                    </span>
+                </div>
+                <p> | CONTACT US </p>
+
+                <div class="flex">
+                    <span class="material-symbols-outlined">
+                        login
+                    </span>
+                </div>
+                <p> | LOG IN</p>
+
+                <div class="flex">
+                    <span class="material-symbols-outlined">
+                        favorite
+                    </span>
+                </div>
+                <div class="flex">
+                    <span class="material-symbols-outlined">
+                        work
+                    </span>
+                </div>
+            </div>
+
+        </div>
+        <nav id="navbar">
+
+            <img class="logo"
+                src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/header_brand_logo_RBK.png?q=75&auto=format"
+                alt="logo">
+            <div>
+                <a href=""> New</a>
+                <a href=""> Men</a>
+                <a href=""> Women</a>
+                <a href="">Icons</a>
+                <a href=""> Sports</a>
+                <a href="">Classics</a>
+                <a href="">Sale</a>
+            </div>
+            <div class="flex">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+                <p> search classic</p>
+            </div>
+            <button class="delivery"> Express Delivery</button>
+        </nav>
+        <div id="container">
+            <div class="items1">
+                <div class="favorite">
+
+                    <p> I AM THE NEW</p>
+                    <div>
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                    </div>
+                </div>
+                <img class="shoes"
+                    src="https://imagescdn.reebok.in/img/app/product/9/921233-11559700.jpg?q=75&auto=format&w=387"
+                    alt="shoes img">
+                <h4> TRAINING SHOES</h4>
+                <h5> Reebok Women NFX Trainer</h5>
+                <div class="flex">
+                    <span class="material-symbols-outlined">
+                        currency_rupee
+                    </span>
+                    <h4> 7,599</h4>
+                </div>
+            </div>
+            <div class="items1">
+                <div class="favorite">
+
+                    <p> I AM THE NEW</p>
+                    <div>
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                    </div>
+                </div>
+                <img class="shoes"
+                    src="https://imagescdn.reebok.in/img/app/product/9/921233-11559700.jpg?q=75&auto=format&w=387"
+                    alt="shoes img">
+                <h4> TRAINING SHOES</h4>
+                <h5> Reebok Women NFX Trainer</h5>
+
+                <div class="flex">
+                    <span class="material-symbols-outlined">
+                        currency_rupee
+                    </span>
+                    <h4> 7,599</h4>
+                </div>
+            </div>
+            <div class="items1">
+
+                <div class="favorite">
+
+                    <p> I AM THE NEW</p>
+                    <div>
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                    </div>
+                </div>
+                <img class="shoes"
+                    src="https://imagescdn.reebok.in/img/app/product/9/921233-11559700.jpg?q=75&auto=format&w=387"
+                    alt="shoes img">
+                <h4> TRAINING SHOES</h4>
+                <h5> Reebok Women NFX Trainer</h5>
+                <div class="flex">
+                    <span class="material-symbols-outlined">
+                        currency_rupee
+                    </span>
+                    <h4> 7,599</h4>
+                </div>
+            </div>
+            <div class="items1">
+                <div class="favorite">
+
+                    <p> I AM THE NEW</p>
+                    <div>
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                    </div>
+                </div>
+                <img class="shoes"
+                    src="https://imagescdn.reebok.in/img/app/product/9/921233-11559700.jpg?q=75&auto=format&w=387"
+                    alt="shoes img">
+                <h4> TRAINING SHOES</h4>
+                <h5> Reebok Women NFX Trainer</h5>
+                <div class="flex">
+                <span class="material-symbols-outlined">
+                    currency_rupee
+                </span>
+                <h4> 7,599</h4>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
